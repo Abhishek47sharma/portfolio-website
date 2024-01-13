@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <div class="left">
+          <span class="f-letter">A</span><span class="r-letter">bhishek</span>
+        </div>
+        <div class="right">
+          <ul  id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="">services</a></li> -->
+            <li><a href="#portfolio">projects</a></li>
+            <li><a href="#contact">contact me</a></li>
+            <img src="images/close.png" alt="" class="icons" onclick="closemenu()">
+          </ul>
+          <img src="images/burger-menu.png" alt="" class="icons" onclick="openmenu()">
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="firstSection">
+        <div class="leftsection">
+          Hi my name is <span class="purple">Abhishek</span>
+          <div>I am a passionate</div>
+          <span id="element"></span><br>
+          <button class="btn cv">
+            <a href="resources/Abhishek_sharma_Resume(3).pdf" download >Download my cv</a>
+          </button>
+        </div>
+        <div class="rightsecton">
+          <img src="images/D1.png" alt="my image" />
+        </div>
+      </section>
+      <hr />
+      <section class="secondSection" id="about">
+        <h1 class="sub-heading">My Skills</h1>
+        <span class="text-grey">What i have learned so far</span>
+        <div id="skill">
+          <div class="first-skill">
+            <div class="title">
+                <h1 class="sub-title">Front-end Skills</h1>
+            </div>
+          
+            <div class="section-one">
+                <div class="front-end">
+                    <div class="front-end-title">
+                      <img src="images/html.png" alt="" />
+                    </div>
+                    <div class="desc">html</div>
+                  </div>
+                  <div class="">
+                    <div class="front-end-title">
+                      <img src="images/css.png" alt="" />
+                    </div>
+                    <div class="desc">css</div>
+                  </div>
+            </div>
+            
+            <div class="section-two">
+
+                <div >
+                    <div class="front-end-title">
+                  <img src="images/javascript.png" alt="" />
+                </div>
+                <div class="desc">javascript</div>
+              </div>
+              <div >
+                  <div class="front-end-title">
+                      <img src="images/react.png" alt="" />
+                    </div>
+                    <div class="desc">React</div>
+                </div>
+            </div>
+
+
+            </div>
+              
+            <div class="second-skill">
+                <div class="title">
+                    <h1 class="sub-title">back-end Skills</h1>
+                </div>
+              
+                <div class="section-one">
+                    <div class="front-end">
+                        <div class="front-end-title">
+                          <img src="images/node.png" alt="" />
+                        </div>
+                        <div class="desc">node</div>
+                      </div>
+                      <div >
+                        <div class="front-end-title">
+                          <img src="images/express.png" alt="" />
+                        </div>
+                        <div class="desc">Express</div>
+                      </div>
+                </div>
+                
+                <div class="section-two">
+    
+                    <div >
+                        <div class="front-end-title">
+                      <img src="images/mongodb.png" alt="" />
+                    </div>
+                    <div class="desc">Mongodb</div>
+                  </div>
+                  
+                </div>
+    
+    
+                </div>
+            </div>
+        </div>
+      </div>
+
+      </section>      
+      <div class="portfolio" id="portfolio">
+        <h1 class="sub-heading">My projects</h1>
+        <div class="work-list">
+          <div class="project">
+            <img src="images/drum1.jpg" alt="" />
+            <div class="layer">
+              <h3>Drum project</h3>
+              <p>
+                Visual drum made with the help of javascript ,which can be
+                played with keys.check it out!!
+              </p>
+              <a href=" https://abhishek47sharma.github.io/Drum-project/">
+                <img src="images/link.png" alt="" class="icons"/>
+              </a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/todolist.jpg" alt="" />
+            <div class="layer">
+              <h3>A todo-list</h3>
+              <p>
+               A todo-list where u can save list in the database,using Mongodb
+               ,check it out!!
+              </p>
+              <a href="#">
+                <img src="images/link.png" alt="" class="icons"
+              /></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="images/tech.jpg" alt="" />
+            <div class="layer">
+              <h3>Dummy website</h3>
+              <p>
+                A Front-end fully responsive dummy website,
+                check it out!!
+              </p>
+              <a href=" https://abhishek47sharma.github.io/responsive-website/">
+                <img src="images/link.png" alt="" class="icons"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact">
+            <div class="container">
+                <div class="contact-left">
+                    <div class="footer">
+                        <div class="footer-first">Contact me on :</div>
+                        <div class="footer-second">
+                          <ul>
+                            <li>
+                              <img src="images/github.png" alt="" /><a
+                                href="https://github.com/Abhishek47sharma"
+                                >My gitub profile</a
+                              >
+                            </li>
+                            <li>
+                              <img src="images/linkedin.png" alt="" /><a
+                                href="https://www.linkedin.com/in/abhishek-sharma-73a511237"
+                                >My linkedin profile</a
+                              >
+                            </li>
+                            <li>
+                              <img src="images/gmail.png" alt="" /><a href=""
+                                >My Gmail : abhisheksharma150504@gmail.com</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    
+                </div>
+                <div class="contact-right"> 
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" cols="10" rows="8" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">submit</button>
+                    </form>
+                </div>
+            </div>
+      </div>
+
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Front-end developer", " student", "and a learner"],
+        typeSpeed: 50,
+      });
+
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu(){
+        sidemenu.style.right = "0"
+      } 
+      function closemenu(){
+        sidemenu.style.right = "-200px"
+      }
+    </script>
+  </body>
+</html>
+

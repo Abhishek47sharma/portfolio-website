@@ -1,0 +1,99 @@
+nav .icons{
+    display: none ;
+}
+
+@media only screen and (max-width:835px){
+    
+    .container{
+        display: flex;
+        flex-direction:column;
+    }
+    
+    .contact-right {
+    display: flex;
+    justify-content: center;
+    }
+    .contact-right form {
+        width: 70%;
+        margin: 10px;
+    }
+}
+
+@media only screen and (max-width:650px){
+.right{
+    position: absolute;
+    right: 25px;
+}
+
+nav .icons{
+    display: block;
+}
+
+nav ul{
+    background:#ff004f;
+    display: flex;
+    flex-direction: column;
+    right: -200px;
+    top: 0;
+    position: fixed;
+    width: 200px;
+    padding-top: 10px;
+    height: 60vh;
+    transition: right 0.5s;
+
+}
+nav ul li{
+    display: block;
+    margin: 25px ;
+}
+nav ul .icons{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+}
+
+.cv{
+    font-size: 1rem;
+}
+.leftsection{
+    font-size: 2rem;
+}
+.firstSection  div{
+    margin-top: 10px; ;
+}
+
+
+#skill{
+    flex-direction:column;
+    align-items: center;
+}
+
+.first-skill{
+    margin-bottom: 15px;
+    margin-right: 0;
+}
+
+.second-skill{
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+.work-list{
+    flex-direction: column;
+    align-items: center;
+}
+.project{
+    width: 90%;
+    height:290px ;
+}
+.contact-right {
+    display: flex;
+    justify-content: center;
+}
+.contact-right form {
+    width: 70%;
+    margin: 10px;
+}
+
+}
